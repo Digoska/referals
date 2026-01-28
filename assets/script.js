@@ -17,7 +17,7 @@ const referralsData = [
         description: "Deposit $100, get $10 instant. Swap to satoshi and earn $20 more. Total $130 withdrawable instantly to Binance, OKX, Bitget, Kraken.",
         category: "Crypto Wallet",
         bonus: "$10-$30 Instant Reward",
-        image: "assets/logos/speed-wallet.png",
+        image: "assets/logos/speed-wallet.svg",
         useImage: true,
         link: "https://links.speed.app/referral?referral_code=BPCM30"
     },
@@ -80,7 +80,7 @@ const referralsData = [
         description: "Sign up with KYC, deposit $101, trade $250 (3x convert USDC to USDT), and get instant reward.",
         category: "Crypto Wallet",
         bonus: "Instant Crypto Reward",
-        image: "assets/logos/uphold.png",
+        image: "assets/logos/uphold.svg",
         useImage: true,
         link: "https://wallet.uphold.com/signup?referral=837ddcd464&campaign=uw_p_d_w_acq_raf&utm_source=raf&utm_medium=referafriend"
     },
@@ -100,7 +100,7 @@ const referralsData = [
         description: "Sign up, deposit €250, trade €250 (Euro-BTC/ETH), get €75 instant reward. Low 0.40% trading fee.",
         category: "Trading",
         bonus: "€75 Instant Reward",
-        image: "assets/logos/kraken.png",
+        image: "assets/logos/kraken.svg",
         useImage: true,
         link: "https://proinvite.kraken.com/9f1e/rvr47zmp"
     },
@@ -110,7 +110,7 @@ const referralsData = [
         description: "Earn crypto through surveys, games, and more activities. Instant withdrawal. No deposit needed!",
         category: "Earn Crypto",
         bonus: "Multiple Earning Ways",
-        image: "assets/logos/cointiply.png",
+        image: "assets/logos/cointiply.svg",
         useImage: true,
         link: "https://cointiply.com/r/wpD3gX"
     },
@@ -120,7 +120,7 @@ const referralsData = [
         description: "Sign up, deposit $100 & trade $500 (get 15 USDC). Order virtual card, spend $101 (get $20). Total rewards.",
         category: "Trading",
         bonus: "$15-$20 USDC Reward",
-        image: "assets/logos/bybit.png",
+        image: "assets/logos/bybit.svg",
         useImage: true,
         link: "https://www.bybit.eu/invite?ref=KVV9JJG"
     },
@@ -130,7 +130,7 @@ const referralsData = [
         description: "Free $10 reward! No deposit needed. Sign up, finish KYC, add code WELCOME, and claim instantly.",
         category: "Crypto Wallet",
         bonus: "$10 Free No Deposit",
-        image: "assets/logos/zonda.png",
+        image: "assets/logos/zonda.svg",
         useImage: true,
         link: "https://zondacrypto.com/en/first-steps"
     },
@@ -140,7 +140,7 @@ const referralsData = [
         description: "Sign up, invest €25+ into products, get €10 instant. Plus €10 bonus from us = €20 total reward!",
         category: "Investment",
         bonus: "€20 Instant Reward",
-        image: "assets/logos/altify.png",
+        image: "assets/logos/altify.svg",
         useImage: true,
         link: "https://web.altify.app/auth/signup?promoCode=LD25L6MRMW"
     },
@@ -150,7 +150,7 @@ const referralsData = [
         description: "Download app, install Joko extension, connect bank (Revolut, Bunq, Wise), get unlimited referral rewards!",
         category: "Cashback",
         bonus: "Unlimited Rewards",
-        image: "assets/logos/joko.png",
+        image: "assets/logos/joko.svg",
         useImage: true,
         link: "https://play.google.com/store/apps/details?id=io.wylr.joko"
     },
@@ -160,7 +160,7 @@ const referralsData = [
         description: "Sign up with KYC, deposit $6, get 5 USDC instant reward. Easy and quick crypto wallet.",
         category: "Crypto Wallet",
         bonus: "5 USDC Instant",
-        image: "assets/logos/airtm.png",
+        image: "assets/logos/airtm.svg",
         useImage: true,
         link: "https://app.airtm.com/ivt/lilko"
     }
