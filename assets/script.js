@@ -17,8 +17,8 @@ const referralsData = [
         description: "Deposit $100, get $10 instant. Swap to satoshi and earn $20 more. Total $130 withdrawable instantly to Binance, OKX, Bitget, Kraken.",
         category: "Crypto Wallet",
         bonus: "$10-$30 Instant Reward",
-        logo: "SW",
-        logoColor: "#1e40af",
+        image: "assets/logos/speed-wallet.png",
+        useImage: true,
         link: "https://links.speed.app/referral?referral_code=BPCM30"
     },
     {
@@ -27,7 +27,7 @@ const referralsData = [
         description: "New referral steps: Sign up, deposit $100 (crypto or cash), get instant reward. Easy money transfer app.",
         category: "Money Transfer",
         bonus: "Instant Crypto Reward",
-        image: "assets/logos/sling money.png",
+        image: "assets/logos/sling-money.png",
         useImage: true,
         link: "sling.link/join/kQt23j"
     },
@@ -37,7 +37,7 @@ const referralsData = [
         description: "Trade and earn: $5 for $100, $10 for $500, $20 for $1000, $65 for $5000. Extra: Get $25 with PRO Visa Card.",
         category: "Trading",
         bonus: "$5-$65 Instant Reward",
-        image: "assets/logos/crypto.com",
+        image: "assets/logos/crypto-com.png",
         useImage: true,
         link: "https://crypto.com/app/472aw4n2kn"
     },
@@ -80,8 +80,8 @@ const referralsData = [
         description: "Sign up with KYC, deposit $101, trade $250 (3x convert USDC to USDT), and get instant reward.",
         category: "Crypto Wallet",
         bonus: "Instant Crypto Reward",
-        logo: "UH",
-        logoColor: "#0066ff",
+        image: "assets/logos/uphold.png",
+        useImage: true,
         link: "https://wallet.uphold.com/signup?referral=837ddcd464&campaign=uw_p_d_w_acq_raf&utm_source=raf&utm_medium=referafriend"
     },
     {
@@ -100,8 +100,8 @@ const referralsData = [
         description: "Sign up, deposit €250, trade €250 (Euro-BTC/ETH), get €75 instant reward. Low 0.40% trading fee.",
         category: "Trading",
         bonus: "€75 Instant Reward",
-        logo: "KR",
-        logoColor: "#6b27b5",
+        image: "assets/logos/kraken.png",
+        useImage: true,
         link: "https://proinvite.kraken.com/9f1e/rvr47zmp"
     },
     {
@@ -110,8 +110,8 @@ const referralsData = [
         description: "Earn crypto through surveys, games, and more activities. Instant withdrawal. No deposit needed!",
         category: "Earn Crypto",
         bonus: "Multiple Earning Ways",
-        logo: "CT",
-        logoColor: "#f7931a",
+        image: "assets/logos/cointiply.png",
+        useImage: true,
         link: "https://cointiply.com/r/wpD3gX"
     },
     {
@@ -120,8 +120,8 @@ const referralsData = [
         description: "Sign up, deposit $100 & trade $500 (get 15 USDC). Order virtual card, spend $101 (get $20). Total rewards.",
         category: "Trading",
         bonus: "$15-$20 USDC Reward",
-        logo: "BB",
-        logoColor: "#f7b500",
+        image: "assets/logos/bybit.png",
+        useImage: true,
         link: "https://www.bybit.eu/invite?ref=KVV9JJG"
     },
     {
@@ -130,8 +130,8 @@ const referralsData = [
         description: "Free $10 reward! No deposit needed. Sign up, finish KYC, add code WELCOME, and claim instantly.",
         category: "Crypto Wallet",
         bonus: "$10 Free No Deposit",
-        logo: "ZC",
-        logoColor: "#007bff",
+        image: "assets/logos/zonda.png",
+        useImage: true,
         link: "https://zondacrypto.com/en/first-steps"
     },
     {
@@ -140,8 +140,8 @@ const referralsData = [
         description: "Sign up, invest €25+ into products, get €10 instant. Plus €10 bonus from us = €20 total reward!",
         category: "Investment",
         bonus: "€20 Instant Reward",
-        logo: "AL",
-        logoColor: "#1a73e8",
+        image: "assets/logos/altify.png",
+        useImage: true,
         link: "https://web.altify.app/auth/signup?promoCode=LD25L6MRMW"
     },
     {
@@ -150,8 +150,8 @@ const referralsData = [
         description: "Download app, install Joko extension, connect bank (Revolut, Bunq, Wise), get unlimited referral rewards!",
         category: "Cashback",
         bonus: "Unlimited Rewards",
-        logo: "JK",
-        logoColor: "#6a4c93",
+        image: "assets/logos/joko.png",
+        useImage: true,
         link: "https://play.google.com/store/apps/details?id=io.wylr.joko"
     },
     {
@@ -160,8 +160,8 @@ const referralsData = [
         description: "Sign up with KYC, deposit $6, get 5 USDC instant reward. Easy and quick crypto wallet.",
         category: "Crypto Wallet",
         bonus: "5 USDC Instant",
-        logo: "AT",
-        logoColor: "#10b981",
+        image: "assets/logos/airtm.png",
+        useImage: true,
         link: "https://app.airtm.com/ivt/lilko"
     }
 ];
