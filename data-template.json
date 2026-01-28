@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "title": "Referral Name",
+        "description": "Detailed description of the referral offer. Explain what it is, how it works, and why people should use it.",
+        "category": "Category (e.g., Finance, Shopping, Tech)",
+        "bonus": "Benefit/Bonus when they sign up (e.g., $50 bonus, Free trial)",
+        "image": "https://via.placeholder.com/600x400?text=Referral+Image",
+        "link": "https://your-referral-link.com"
+    }
+]

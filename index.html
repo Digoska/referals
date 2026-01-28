@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Opportunities - Connect & Earn</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">Refer Hub</div>
+                <div class="nav-links">
+                    <a href="#" class="nav-link">Referrals</a>
+                    <a href="#" class="nav-link">Browse</a>
+                    <a href="#" class="nav-link">Top Picks</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-accent">Discover amazing</span>
+                    <br>
+                    referral opportunities
+                </h1>
+                <p class="hero-subtitle">Find the best deals, services, and platforms from trusted recommendations</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-box">
+                        <span class="stat-icon">🎯</span>
+                        <span class="stat-text">Earn rewards by sharing</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-icon">✓</span>
+                        <span class="stat-text">Verified opportunities</span>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn-primary-large" onclick="document.querySelector('.browse-section').scrollIntoView({behavior: 'smooth'})">Browse Referrals</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Pick Banner -->
+    <section class="top-pick-banner">
+        <div class="container">
+            <div class="top-pick-content">
+                <span class="top-pick-badge">⭐ TOP PICK</span>
+                <h3 class="top-pick-title">Robinhood - Get €50 Crypto Instantly</h3>
+                <p class="top-pick-subtitle">Sign up and deposit €10 to start trading. Get €50 instant reward!</p>
+                <a href="https://join.robinhood.com/eu_crypto/nikodez-09cc86/" target="_blank" class="top-pick-btn">Claim €50 Now →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Browse Section -->
+    <section class="browse-section">
+        <div class="container">
+            <div class="browse-header">
+                <h2>Explore Opportunities</h2>
+                <p class="browse-subheader">Handpicked referral deals from trusted sources</p>
+                <div class="browse-stat">
+                    <span class="stat-badge">✓ 500+ referrals available</span>
+                </div>
+            </div>
+
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name, category, or benefit...">
+            </div>
+
+            <div class="referral-grid" id="referralGrid">
+                <!-- Referrals will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Details</title>
+    <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Referrals</a>
+
+        <div class="detail-card">
+            <img id="detailImage" src="" alt="Referral Image" class="detail-image">
+            
+            <div class="detail-content">
+                <h1 id="detailTitle"></h1>
+                <p id="detailDescription" class="detail-description"></p>
+                
+                <div class="detail-info">
+                    <div class="info-item">
+                        <label>Category:</label>
+                        <span id="detailCategory"></span>
+                    </div>
+                    <div class="info-item">
+                        <label>Bonus/Benefit:</label>
+                        <span id="detailBonus"></span>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <input type="text" id="referralLink" readonly class="referral-input">
+                    <button id="copyBtn" class="btn btn-primary">Copy Link</button>
+                    <a id="openBtn" href="" target="_blank" class="btn btn-secondary">Open Referral</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/script.js"></script>
+</body>
+</html>
